@@ -1,0 +1,144 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme QuickMealPlanner -configuration Debug build
+
+2025-04-13 05:53:29.202 xcodebuild[52075:2235714]  DVTDeviceOperation: Encountered a build number "" that is incompatible with DVTBuildVersion.
+2025-04-13 05:53:29.344 xcodebuild[52075:2235658] [MT] DVTDeviceOperation: Encountered a build number "" that is incompatible with DVTBuildVersion.
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:macOS, arch:x86_64, id:4AC8FB19-1B3F-5986-AD78-DE264A870E89, name:My Mac }
+{ platform:macOS, name:Any Mac }
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'QuickMealPlanner' in project 'QuickMealPlanner' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/momc --dry-run --action generate --swift-version 5.0 --sdkroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk --macosx-deployment-target 14.0 --module QuickMealPlanner /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Models/TransactionModel.xcdatamodeld /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/DerivedSources/CoreDataGenerated/TransactionModel
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: bfc4359355e6f98ab889f93a8428eee6
+Build description path: /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/XCBuildData/bfc4359355e6f98ab889f93a8428eee6.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk /Users/jschnell/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx15.4-24E241-88b860576fb364319593bd8fb30666b0.sdkstatcache
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -o /Users/jschnell/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx15.4-24E241-88b860576fb364319593bd8fb30666b0.sdkstatcache
+
+WriteAuxiliaryFile /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner.SwiftFileList (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    write-file /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner.SwiftFileList
+
+WriteAuxiliaryFile /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner.SwiftConstValuesFileList (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    write-file /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner.LinkFileList (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    write-file /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner.LinkFileList
+
+WriteAuxiliaryFile /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner-OutputFileMap.json (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    write-file /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner-OutputFileMap.json
+
+ProcessProductPackaging /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/QuickMealPlanner.entitlements /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner.app.xcent (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    
+    Entitlements:
+    
+    {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.get-task-allow" = 1;
+    "com.apple.security.personal-information.calendars" = 1;
+}
+    
+    builtin-productPackagingUtility /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/QuickMealPlanner.entitlements -entitlements -format xml -o /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner.app.xcent
+
+ProcessProductPackagingDER /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner.app.xcent /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner.app.xcent.der (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    /usr/bin/derq query -f xml -i /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner.app.xcent -o /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner.app.xcent.der --raw
+
+SwiftDriver QuickMealPlanner normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name QuickMealPlanner -Onone -enforce-exclusivity\=checked @/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -target x86_64-apple-macos14.0 -g -module-cache-path /Users/jschnell/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Index.noindex/DataStore -swift-version 5 -I /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Products/Debug -F /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Products/Debug -emit-localized-strings -emit-localized-strings-path /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64 -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/jschnell/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx15.4-24E241-88b860576fb364319593bd8fb30666b0.sdkstatcache -output-file-map /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/jschnell/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner_const_extract_protocols.json -Xcc -iquote -Xcc /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner-generated-files.hmap -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner-own-target-headers.hmap -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner-project-headers.hmap -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Products/Debug/include -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/DerivedSources-normal/x86_64 -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/DerivedSources/x86_64 -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner-Swift.h -working-directory /Users/jschnell/Documents/Code/QuickMealPlanner -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal x86_64 Compiling\ TransactionManager.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/TransactionManager.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+
+SwiftCompile normal x86_64 /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/TransactionManager.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    
+
+SwiftCompile normal x86_64 Compiling\ GenerateSampleData.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/GenerateSampleData.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+
+SwiftCompile normal x86_64 /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/GenerateSampleData.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    
+
+SwiftCompile normal x86_64 Compiling\ TransactionsView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/TransactionsView.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+SwiftCompile normal x86_64 /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/TransactionsView.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    
+
+SwiftCompile normal x86_64 Compiling\ CoreDataManager.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Models/CoreDataManager.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+
+SwiftCompile normal x86_64 /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Models/CoreDataManager.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ QuickMealPlanner (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -emit-module -experimental-skip-non-inlinable-function-bodies-without-types /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Views/HistoricalPlansView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Managers/MealPlanner.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/CSVDecoder.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/ContentView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/HomeMaintenanceView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/GenerateSampleData.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/FinancialReportsView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/QuickMealPlannerApp.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Managers/GroceryListManager.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Views/DailyView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Views/WeeklyView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/VehicleDetailsView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Managers/RecipeParser.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Transaction.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/TransactionsView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/TransactionManager.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/TransactionFileManager.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Managers/CalendarManager.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Views/GroceryListView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Models/CoreDataManager.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/StartPageView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/ReceiptsView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Models/Models.swift /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/DerivedSources/CoreDataGenerated/TransactionModel/TransactionEntity+CoreDataClass.swift /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/DerivedSources/CoreDataGenerated/TransactionModel/TransactionEntity+CoreDataProperties.swift /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/DerivedSources/CoreDataGenerated/TransactionModel/TransactionModel+CoreDataModel.swift /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/DerivedSources/GeneratedAssetSymbols.swift -target x86_64-apple-macos14.0 -enable-objc-interop -stack-check -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -I /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Products/Debug -F /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Products/Debug -no-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -module-cache-path /Users/jschnell/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/jschnell/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/jschnell/Documents/Code/QuickMealPlanner -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -file-compilation-dir /Users/jschnell/Documents/Code/QuickMealPlanner -Xcc -ivfsstatcache -Xcc /Users/jschnell/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx15.4-24E241-88b860576fb364319593bd8fb30666b0.sdkstatcache -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner-generated-files.hmap -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner-own-target-headers.hmap -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/QuickMealPlanner-project-headers.hmap -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Products/Debug/include -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/DerivedSources-normal/x86_64 -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/DerivedSources/x86_64 -Xcc -I/Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/DerivedSources -Xcc -DDEBUG\=1 -module-name QuickMealPlanner -frontend-parseable-output -disable-clang-spi -target-sdk-version 15.4 -target-sdk-name macosx15.4 -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -emit-module-doc-path /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner.swiftdoc -emit-module-source-info-path /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner.swiftsourceinfo -emit-objc-header-path /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner-Swift.h -serialize-diagnostics-path /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner-master-emit-module.dia -emit-dependencies-path /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner-master-emit-module.d -o /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner.swiftmodule -emit-abi-descriptor-path /Users/jschnell/Library/Developer/Xcode/DerivedData/QuickMealPlanner-bsrfnuwptawvnpbsbudaczaduteu/Build/Intermediates.noindex/QuickMealPlanner.build/Debug/QuickMealPlanner.build/Objects-normal/x86_64/QuickMealPlanner.abi.json
+
+EmitSwiftModule normal x86_64 (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    
+/Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/GenerateSampleData.swift:3:1: error: 'main' attribute can only apply to one type in a module
+@main
+^
+/Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/QuickMealPlannerApp.swift:10:1: error: 'main' attribute can only apply to one type in a module
+@main
+^
+
+SwiftDriverJobDiscovery normal x86_64 Compiling GenerateSampleData.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling CoreDataManager.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling TransactionManager.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+
+SwiftCompile normal x86_64 Compiling\ Transaction.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Transaction.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+
+SwiftCompile normal x86_64 /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/Transaction.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    
+
+SwiftCompile normal x86_64 Compiling\ FinancialReportsView.swift /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/FinancialReportsView.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+
+SwiftCompile normal x86_64 /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner/FinancialReportsView.swift (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+    cd /Users/jschnell/Documents/Code/QuickMealPlanner
+    
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	SwiftEmitModule normal x86_64 Emitting\ module\ for\ QuickMealPlanner (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+	EmitSwiftModule normal x86_64 (in target 'QuickMealPlanner' from project 'QuickMealPlanner')
+	Building project QuickMealPlanner with scheme QuickMealPlanner and configuration Debug
+(3 failures)

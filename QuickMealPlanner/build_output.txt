@@ -1,0 +1,7 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme QuickMealPlanner -configuration Debug build
+
+2025-04-13 05:46:46.985 xcodebuild[51792:2227532] Writing error result bundle to /var/folders/j0/rtt87h6n6m5d3vvvmrz3dn680000gn/T/ResultBundle_2025-13-04_05-46-0046.xcresult
+2025-04-13 05:46:46.987 xcodebuild[51792:2227620]  DVTDeviceOperation: Encountered a build number "" that is incompatible with DVTBuildVersion.
+xcodebuild: error: The directory /Users/jschnell/Documents/Code/QuickMealPlanner/QuickMealPlanner does not contain an Xcode project, workspace or package.
+
